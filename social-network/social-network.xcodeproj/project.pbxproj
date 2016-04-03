@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		494053431CB029580088BA02 /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494053401CB029580088BA02 /* Command.swift */; };
+		494053441CB029580088BA02 /* CommandFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494053411CB029580088BA02 /* CommandFactory.swift */; };
+		494053451CB029580088BA02 /* PostCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494053421CB029580088BA02 /* PostCommand.swift */; };
+		4940534A1CB0295B0088BA02 /* SocialNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494053471CB0295B0088BA02 /* SocialNetwork.swift */; };
+		4940534B1CB0295B0088BA02 /* SocialNetworkTerminalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494053481CB0295B0088BA02 /* SocialNetworkTerminalView.swift */; };
+		4940534C1CB0295B0088BA02 /* SocialNetworkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494053491CB0295B0088BA02 /* SocialNetworkView.swift */; };
+		4940534E1CB029690088BA02 /* ReadCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4940534D1CB029690088BA02 /* ReadCommand.swift */; };
+		494053501CB029840088BA02 /* FollowCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4940534F1CB029840088BA02 /* FollowCommand.swift */; };
+		494053521CB029900088BA02 /* WallCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494053511CB029900088BA02 /* WallCommand.swift */; };
+		494053541CB029C60088BA02 /* CommandFactoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494053531CB029C60088BA02 /* CommandFactoryTests.swift */; };
+		494053561CB029EC0088BA02 /* RepeatCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494053551CB029EC0088BA02 /* RepeatCommand.swift */; };
+		494053571CB02A500088BA02 /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494053401CB029580088BA02 /* Command.swift */; };
+		494053581CB02A530088BA02 /* CommandFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494053411CB029580088BA02 /* CommandFactory.swift */; };
+		494053591CB02A530088BA02 /* PostCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494053421CB029580088BA02 /* PostCommand.swift */; };
+		4940535A1CB02A530088BA02 /* ReadCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4940534D1CB029690088BA02 /* ReadCommand.swift */; };
+		4940535B1CB02A530088BA02 /* FollowCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4940534F1CB029840088BA02 /* FollowCommand.swift */; };
+		4940535C1CB02A530088BA02 /* WallCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494053511CB029900088BA02 /* WallCommand.swift */; };
+		4940535D1CB02A530088BA02 /* RepeatCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494053551CB029EC0088BA02 /* RepeatCommand.swift */; };
+		4940535E1CB02A590088BA02 /* SocialNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494053471CB0295B0088BA02 /* SocialNetwork.swift */; };
+		4940535F1CB02A590088BA02 /* SocialNetworkTerminalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494053481CB0295B0088BA02 /* SocialNetworkTerminalView.swift */; };
+		494053601CB02A590088BA02 /* SocialNetworkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494053491CB0295B0088BA02 /* SocialNetworkView.swift */; };
+		494053621CB02BA20088BA02 /* ErrorCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494053611CB02BA20088BA02 /* ErrorCommand.swift */; };
+		494053631CB02C590088BA02 /* ErrorCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494053611CB02BA20088BA02 /* ErrorCommand.swift */; };
+		494053651CB02F950088BA02 /* SocialNetworkData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494053641CB02F950088BA02 /* SocialNetworkData.swift */; };
+		494053671CB0379F0088BA02 /* SocialNetworkDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494053661CB0379F0088BA02 /* SocialNetworkDataTests.swift */; };
+		494053681CB037B10088BA02 /* SocialNetworkData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494053641CB02F950088BA02 /* SocialNetworkData.swift */; };
+		4940536A1CB03A510088BA02 /* CommandTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494053691CB03A510088BA02 /* CommandTests.swift */; };
+		4940536C1CB03C930088BA02 /* DateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4940536B1CB03C930088BA02 /* DateHelper.swift */; };
+		4940536E1CB03D7C0088BA02 /* DateHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4940536D1CB03D7C0088BA02 /* DateHelperTests.swift */; };
+		4940536F1CB03D820088BA02 /* DateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4940536B1CB03C930088BA02 /* DateHelper.swift */; };
+		494053711CB046E60088BA02 /* MessageFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494053701CB046E60088BA02 /* MessageFormatter.swift */; };
+		494053721CB047570088BA02 /* MessageFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494053701CB046E60088BA02 /* MessageFormatter.swift */; };
+		494053741CB0476D0088BA02 /* MessageFormatterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494053731CB0476D0088BA02 /* MessageFormatterTests.swift */; };
+		49AE81501CB01F4400FBF023 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AE814F1CB01F4400FBF023 /* main.swift */; };
+		49E82BAE1CB1561F00128731 /* SocialNetworkScenario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E82BAD1CB1561F00128731 /* SocialNetworkScenario.swift */; };
+		49E82BB01CB15A6800128731 /* EndCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E82BAF1CB15A6800128731 /* EndCommand.swift */; };
+		49E82BB11CB15AB300128731 /* EndCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E82BAF1CB15A6800128731 /* EndCommand.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		49AE814A1CB01F4400FBF023 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		494053401CB029580088BA02 /* Command.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Command.swift; sourceTree = "<group>"; };
+		494053411CB029580088BA02 /* CommandFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommandFactory.swift; sourceTree = "<group>"; };
+		494053421CB029580088BA02 /* PostCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCommand.swift; sourceTree = "<group>"; };
+		494053471CB0295B0088BA02 /* SocialNetwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocialNetwork.swift; sourceTree = "<group>"; };
+		494053481CB0295B0088BA02 /* SocialNetworkTerminalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocialNetworkTerminalView.swift; sourceTree = "<group>"; };
+		494053491CB0295B0088BA02 /* SocialNetworkView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocialNetworkView.swift; sourceTree = "<group>"; };
+		4940534D1CB029690088BA02 /* ReadCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadCommand.swift; sourceTree = "<group>"; };
+		4940534F1CB029840088BA02 /* FollowCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FollowCommand.swift; sourceTree = "<group>"; };
+		494053511CB029900088BA02 /* WallCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WallCommand.swift; sourceTree = "<group>"; };
+		494053531CB029C60088BA02 /* CommandFactoryTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommandFactoryTests.swift; sourceTree = "<group>"; };
+		494053551CB029EC0088BA02 /* RepeatCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepeatCommand.swift; sourceTree = "<group>"; };
+		494053611CB02BA20088BA02 /* ErrorCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorCommand.swift; sourceTree = "<group>"; };
+		494053641CB02F950088BA02 /* SocialNetworkData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocialNetworkData.swift; sourceTree = "<group>"; };
+		494053661CB0379F0088BA02 /* SocialNetworkDataTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocialNetworkDataTests.swift; sourceTree = "<group>"; };
+		494053691CB03A510088BA02 /* CommandTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommandTests.swift; sourceTree = "<group>"; };
+		4940536B1CB03C930088BA02 /* DateHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateHelper.swift; sourceTree = "<group>"; };
+		4940536D1CB03D7C0088BA02 /* DateHelperTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateHelperTests.swift; sourceTree = "<group>"; };
+		494053701CB046E60088BA02 /* MessageFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageFormatter.swift; sourceTree = "<group>"; };
+		494053731CB0476D0088BA02 /* MessageFormatterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageFormatterTests.swift; sourceTree = "<group>"; };
+		49AE814C1CB01F4400FBF023 /* social-network */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "social-network"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49AE814F1CB01F4400FBF023 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		49AE815A1CB01F5400FBF023 /* social-networkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "social-networkTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49AE815E1CB01F5400FBF023 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49E82BAD1CB1561F00128731 /* SocialNetworkScenario.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocialNetworkScenario.swift; sourceTree = "<group>"; };
+		49E82BAF1CB15A6800128731 /* EndCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndCommand.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49AE81491CB01F4400FBF023 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49AE81571CB01F5400FBF023 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4940533F1CB029580088BA02 /* Commands */ = {
+			isa = PBXGroup;
+			children = (
+				494053401CB029580088BA02 /* Command.swift */,
+				494053411CB029580088BA02 /* CommandFactory.swift */,
+				494053421CB029580088BA02 /* PostCommand.swift */,
+				4940534D1CB029690088BA02 /* ReadCommand.swift */,
+				4940534F1CB029840088BA02 /* FollowCommand.swift */,
+				494053511CB029900088BA02 /* WallCommand.swift */,
+				494053551CB029EC0088BA02 /* RepeatCommand.swift */,
+				494053611CB02BA20088BA02 /* ErrorCommand.swift */,
+				49E82BAF1CB15A6800128731 /* EndCommand.swift */,
+			);
+			path = Commands;
+			sourceTree = "<group>";
+		};
+		494053461CB0295B0088BA02 /* SocialNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				494053471CB0295B0088BA02 /* SocialNetwork.swift */,
+				494053641CB02F950088BA02 /* SocialNetworkData.swift */,
+				494053481CB0295B0088BA02 /* SocialNetworkTerminalView.swift */,
+				494053491CB0295B0088BA02 /* SocialNetworkView.swift */,
+				494053701CB046E60088BA02 /* MessageFormatter.swift */,
+				4940536B1CB03C930088BA02 /* DateHelper.swift */,
+			);
+			path = SocialNetwork;
+			sourceTree = "<group>";
+		};
+		49AE81431CB01F4400FBF023 = {
+			isa = PBXGroup;
+			children = (
+				49AE814E1CB01F4400FBF023 /* social-network */,
+				49AE815B1CB01F5400FBF023 /* social-networkTests */,
+				49AE814D1CB01F4400FBF023 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49AE814D1CB01F4400FBF023 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49AE814C1CB01F4400FBF023 /* social-network */,
+				49AE815A1CB01F5400FBF023 /* social-networkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49AE814E1CB01F4400FBF023 /* social-network */ = {
+			isa = PBXGroup;
+			children = (
+				49AE814F1CB01F4400FBF023 /* main.swift */,
+				494053461CB0295B0088BA02 /* SocialNetwork */,
+				4940533F1CB029580088BA02 /* Commands */,
+			);
+			path = "social-network";
+			sourceTree = "<group>";
+		};
+		49AE815B1CB01F5400FBF023 /* social-networkTests */ = {
+			isa = PBXGroup;
+			children = (
+				49E82BAD1CB1561F00128731 /* SocialNetworkScenario.swift */,
+				494053531CB029C60088BA02 /* CommandFactoryTests.swift */,
+				494053661CB0379F0088BA02 /* SocialNetworkDataTests.swift */,
+				494053691CB03A510088BA02 /* CommandTests.swift */,
+				4940536D1CB03D7C0088BA02 /* DateHelperTests.swift */,
+				494053731CB0476D0088BA02 /* MessageFormatterTests.swift */,
+				49AE815E1CB01F5400FBF023 /* Info.plist */,
+			);
+			path = "social-networkTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49AE814B1CB01F4400FBF023 /* social-network */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49AE81531CB01F4400FBF023 /* Build configuration list for PBXNativeTarget "social-network" */;
+			buildPhases = (
+				49AE81481CB01F4400FBF023 /* Sources */,
+				49AE81491CB01F4400FBF023 /* Frameworks */,
+				49AE814A1CB01F4400FBF023 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "social-network";
+			productName = "social-network";
+			productReference = 49AE814C1CB01F4400FBF023 /* social-network */;
+			productType = "com.apple.product-type.tool";
+		};
+		49AE81591CB01F5400FBF023 /* social-networkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49AE815F1CB01F5400FBF023 /* Build configuration list for PBXNativeTarget "social-networkTests" */;
+			buildPhases = (
+				49AE81561CB01F5400FBF023 /* Sources */,
+				49AE81571CB01F5400FBF023 /* Frameworks */,
+				49AE81581CB01F5400FBF023 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "social-networkTests";
+			productName = "social-networkTests";
+			productReference = 49AE815A1CB01F5400FBF023 /* social-networkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49AE81441CB01F4400FBF023 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Sergio Baró Simó";
+				TargetAttributes = {
+					49AE814B1CB01F4400FBF023 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					49AE81591CB01F5400FBF023 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 49AE81471CB01F4400FBF023 /* Build configuration list for PBXProject "social-network" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 49AE81431CB01F4400FBF023;
+			productRefGroup = 49AE814D1CB01F4400FBF023 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49AE814B1CB01F4400FBF023 /* social-network */,
+				49AE81591CB01F5400FBF023 /* social-networkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49AE81581CB01F5400FBF023 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49AE81481CB01F4400FBF023 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49AE81501CB01F4400FBF023 /* main.swift in Sources */,
+				494053451CB029580088BA02 /* PostCommand.swift in Sources */,
+				494053621CB02BA20088BA02 /* ErrorCommand.swift in Sources */,
+				4940534C1CB0295B0088BA02 /* SocialNetworkView.swift in Sources */,
+				4940534B1CB0295B0088BA02 /* SocialNetworkTerminalView.swift in Sources */,
+				49E82BB01CB15A6800128731 /* EndCommand.swift in Sources */,
+				4940536C1CB03C930088BA02 /* DateHelper.swift in Sources */,
+				494053441CB029580088BA02 /* CommandFactory.swift in Sources */,
+				494053431CB029580088BA02 /* Command.swift in Sources */,
+				4940534A1CB0295B0088BA02 /* SocialNetwork.swift in Sources */,
+				494053561CB029EC0088BA02 /* RepeatCommand.swift in Sources */,
+				494053521CB029900088BA02 /* WallCommand.swift in Sources */,
+				494053501CB029840088BA02 /* FollowCommand.swift in Sources */,
+				4940534E1CB029690088BA02 /* ReadCommand.swift in Sources */,
+				494053711CB046E60088BA02 /* MessageFormatter.swift in Sources */,
+				494053651CB02F950088BA02 /* SocialNetworkData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49AE81561CB01F5400FBF023 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4940535F1CB02A590088BA02 /* SocialNetworkTerminalView.swift in Sources */,
+				4940536E1CB03D7C0088BA02 /* DateHelperTests.swift in Sources */,
+				494053541CB029C60088BA02 /* CommandFactoryTests.swift in Sources */,
+				4940536A1CB03A510088BA02 /* CommandTests.swift in Sources */,
+				494053631CB02C590088BA02 /* ErrorCommand.swift in Sources */,
+				494053591CB02A530088BA02 /* PostCommand.swift in Sources */,
+				494053581CB02A530088BA02 /* CommandFactory.swift in Sources */,
+				49E82BAE1CB1561F00128731 /* SocialNetworkScenario.swift in Sources */,
+				49E82BB11CB15AB300128731 /* EndCommand.swift in Sources */,
+				4940535E1CB02A590088BA02 /* SocialNetwork.swift in Sources */,
+				4940535A1CB02A530088BA02 /* ReadCommand.swift in Sources */,
+				4940536F1CB03D820088BA02 /* DateHelper.swift in Sources */,
+				494053721CB047570088BA02 /* MessageFormatter.swift in Sources */,
+				4940535B1CB02A530088BA02 /* FollowCommand.swift in Sources */,
+				494053601CB02A590088BA02 /* SocialNetworkView.swift in Sources */,
+				4940535C1CB02A530088BA02 /* WallCommand.swift in Sources */,
+				494053741CB0476D0088BA02 /* MessageFormatterTests.swift in Sources */,
+				4940535D1CB02A530088BA02 /* RepeatCommand.swift in Sources */,
+				494053681CB037B10088BA02 /* SocialNetworkData.swift in Sources */,
+				494053571CB02A500088BA02 /* Command.swift in Sources */,
+				494053671CB0379F0088BA02 /* SocialNetworkDataTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		49AE81511CB01F4400FBF023 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		49AE81521CB01F4400FBF023 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		49AE81541CB01F4400FBF023 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		49AE81551CB01F4400FBF023 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		49AE81601CB01F5400FBF023 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "social-networkTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sbs.social-networkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		49AE81611CB01F5400FBF023 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "social-networkTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sbs.social-networkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49AE81471CB01F4400FBF023 /* Build configuration list for PBXProject "social-network" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49AE81511CB01F4400FBF023 /* Debug */,
+				49AE81521CB01F4400FBF023 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49AE81531CB01F4400FBF023 /* Build configuration list for PBXNativeTarget "social-network" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49AE81541CB01F4400FBF023 /* Debug */,
+				49AE81551CB01F4400FBF023 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49AE815F1CB01F5400FBF023 /* Build configuration list for PBXNativeTarget "social-networkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49AE81601CB01F5400FBF023 /* Debug */,
+				49AE81611CB01F5400FBF023 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49AE81441CB01F4400FBF023 /* Project object */;
+}
